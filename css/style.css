@@ -11,6 +11,7 @@ a{
     color:#333;
     text-decoration: none;
 }
+
 h1{
     padding-bottom: 20px;
 }
@@ -51,8 +52,8 @@ h1{
 #navbar ul li a:hover{
     color:rgb(94, 177, 233);
 }
-#navbar ul li a.current{
-    color: rgb(94, 177, 233);
+#navbar ul li a:active{
+    color:rgb(94, 177, 233);
 }
 .marquee-container {
     padding: 20px;
@@ -98,4 +99,23 @@ h1{
 .copyright-section p {
     margin: 0;
     font-size: 18px;
+}
+.about-body{
+    display: grid;
+    margin-left: 15px;
+    margin-right: 15px;
+    grid-template-columns: 1fr 2fr;
+}
+.about-content-section{
+   
+    color:darkblue;
+    display: inline-block;
+    height: 100%;
+    text-align: justify;
+}
+.about-image-section{
+    display: inline-block;
+    height: 100%; 
+    color:darkblue;
+    text-align: right;
 }
