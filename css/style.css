@@ -169,3 +169,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #333;
 }
+.image-section>h1,h3{
+    display: inline-block;
+    color: darkblue;
+}
