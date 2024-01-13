@@ -1,12 +1,21 @@
 .experience-section{
     background-image: url('/Pictures/pic11.jpeg'); 
     column-gap: 45px;
-    text-align: center;
-    height: 500px;
+    height: auto;
     margin-top: 80px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 10px;
     background: #fff;
     border-radius: 8px;
+}
+.experience-section>h1{
+    text-align: justify;
+    font-weight: lighter;
+}
+.experience-section>p{
+    font-size: 20px;
+}
+.experience-section>ul{
+    margin-left: 40px;
 }
