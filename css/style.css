@@ -66,17 +66,25 @@ h1{
     font-size: 16px;
 }
 .image-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
     background-image: url('/Pictures/pic11.jpeg'); 
     background-size: cover; 
     background-position: center; 
-    height: 400px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
+    padding: 20px; 
     color: #333;
 }
-.image-section h1 {
+.image-section h1,h3 {
     font-size: 24px;
+    color: darkblue;
+}
+
+.image-section p {
+    flex: 1;
+    margin-left: 20px;
 }
 .social-media-section {
     background-color: rgb(20, 60, 88);
@@ -168,8 +176,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background: #333;
-}
-.image-section>h1,h3{
-    display: inline-block;
-    color: darkblue;
 }
