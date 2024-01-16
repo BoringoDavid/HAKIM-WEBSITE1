@@ -73,7 +73,8 @@ h1{
     background-image: url('../Pictures/pic11.jpeg'); 
     background-size: cover; 
     background-position: center; 
-    height: 400px;
+    height: 799px;
+    width:100%;
     padding: 20px; 
     color: #333;
 }
