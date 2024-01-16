@@ -88,6 +88,9 @@ h1{
     margin-left: 20px;
 }
 .social-media-section {
+    position: fixed;
+    bottom: 30px;
+    width: 100%;
     background-color: rgb(20, 60, 88);
     text-align: center;
     padding: 5px;
@@ -106,6 +109,9 @@ h1{
     color: #fff; 
 }
 .copyright-section {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 5px;
     background-color: #333; 
